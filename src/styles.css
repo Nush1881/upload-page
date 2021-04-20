@@ -1,0 +1,80 @@
+ /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    display: grid;
+    height: 90%;
+    place-items: center;
+    text-align: center;
+      
+    
+}
+ .container{
+    height: 350px;
+    width: 630px;
+} 
+.container .wrapper{
+    height: 300px;
+    width: 530px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .icon{
+    font-size: 100px;
+    color: #000066;
+}
+
+.wrapper .file-name{
+    position: absolute;
+    bottom: 223px;
+    background: #000066;
+    color: white;
+    width: 530px;
+    padding: 8px 0px;
+    font-size: 18px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+.container #custom-btn{
+    margin-top: 30px;
+    width: 240px;
+    height: 50px;
+    /* display: block; */
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    background-color: #000066;
+    transition: all .5s ease;
+}
+#custom-btn:hover {
+    color:#000066;
+    background-color: #fff;
+    font-weight: bold;
+}
+.container #upload-btn{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 240px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    background-color: #000066;
+}
+#upload-btn:hover {
+    color:#000066;
+    background-color: #fff;
+    font-weight: bold;
+} 
+

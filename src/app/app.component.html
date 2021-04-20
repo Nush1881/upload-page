@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="content">
+        <div class="icon"><i class="fas fa-upload"></i></div>
+    </div>
+    <div class="file-name" id="custom-text">No file chosen</div>
+  </div>
+  <input #fileInput (change)="onFileSelected($event)" id="default-btn" class="file-input" type="file" style="visibility: hidden"> 
+  <table>
+    <tr>
+        
+      <td><button (click)="defaultBtnActive()" id="custom-btn" type="button">Choose a file</button></td>
+      <td><button (click)="onFileUpload()" id="upload-btn">Upload</button></td>
+    </tr>
+  </table>
+</div>
